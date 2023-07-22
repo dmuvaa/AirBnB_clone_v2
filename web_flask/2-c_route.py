@@ -20,6 +20,7 @@ def hbnb():
     """Hbnb Route"""
     return "HBNB"
 
+
 @app.route('/c/<text>', strict_slashes=False)
 def c(text):
     """text to replace '_' and '.'"""
